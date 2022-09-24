@@ -10,7 +10,11 @@ function App() {
         <Weather />
       </header>
       <small>
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/Oksihup/weather-react"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Open-source code
         </a>
         , by Oksana Zhuravska
