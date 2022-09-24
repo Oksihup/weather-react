@@ -1,15 +1,21 @@
-import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import Navigation from "./Navigation";
-import Main from "./Main";
+import React from "react";
+import Weather from "./Weather";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <Navigation />
-        <Main />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <Weather />
+      </header>
+      <small>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          Open-source code
+        </a>
+        , by Oksana Zhuravska
+      </small>
+    </div>
+  );
 }
+export default App;
